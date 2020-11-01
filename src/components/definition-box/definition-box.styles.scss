@@ -1,0 +1,30 @@
+.definition-box {
+    border: solid 0.5px grey;
+        padding: 50px;
+        width: 70%;
+        height: 80%;
+        position: absolute;
+        left: 50%;
+        top: 50%; 
+        margin-left: -45%;
+        margin-top: -20%;
+        background-color: rgb(255, 255, 255);
+        color: rgb(98, 98, 98);
+    .current-word {
+        font-size: 32px;
+        color: rgb(83, 83, 83);
+        font-family: 'Antic Slab', serif;
+
+
+    }
+    .current-definition {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+        white-space: pre-wrap;
+        line-height: 1;
+        
+    }
+}
+

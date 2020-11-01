@@ -1,0 +1,75 @@
+.words-list {
+    width: 85%;
+    .word-box {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        height: 35px;
+        font-size: 18px;
+        padding: 18px 2px 2px 2px;
+        color: rgb(0, 0, 0);
+        border-top: solid rgb(190, 190, 190) 0.5px;
+        .word-icon{
+            font-size: 7px;
+            padding:4px 2px 2px 2px;
+            margin-right: 10px;
+        }
+        .pink {
+            color: rgb(255, 162, 178);
+            color: #d2d2cb;
+        }
+        .peach {
+            color: rgb(253, 187, 143);
+            color: #4d695d;
+        }
+        .millenial {
+            color: rgb(246, 186, 190);
+            color: #83a79d;
+        }
+        .yellow {
+            color: rgb(255, 253, 109);
+            color:#dae8e5;
+        }
+        .mint {
+            color: rgb(129, 255, 207);
+            color:#30b0e0;
+        }
+        .beige {
+            color: rgb(255, 222, 115);
+            color:#a1cde5;
+        }
+
+        .blue {
+            color: #bfdeee;
+        }
+
+        .blue2 {
+            color:#bc252d;
+        }
+        // .word {
+        //     text-align: center;
+        // }
+        .word-number {
+            vertical-align: baseline;
+            font-size: 12px;
+        }
+        .word-meaning {
+            overflow: hidden;
+        }
+        // .word-meaning:hover {
+        //     height: 300px;
+        //     background-color: whitesmoke;
+        //     z-index: 200;
+        //     display: flex;
+        //     align-items: center;
+        //     white-space: pre-wrap;
+
+        // }
+    }
+    .word-box:hover {
+        color: black;
+        font-weight: 400;
+    }
+}

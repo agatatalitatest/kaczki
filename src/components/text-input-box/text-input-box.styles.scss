@@ -1,0 +1,74 @@
+.text-buttons {
+    display: flex;
+    flex-direction: row;
+}
+.title {
+    font-family: 'Pacifico', cursive;
+    //font-family: 'Sacramento', cursive;
+    //font-family: 'League Script', cursive;
+
+    //font-family: 'Merienda', cursive;
+    margin: 5vh 5px;
+
+    //font-family: 'Open Sans Condensed', sans-serif;
+
+    //font-family: 'Sacramento', cursive;
+
+    //font-family: 'Shadows Into Light', cursive;
+    //font-family: 'Antic Slab', serif;
+    //font-family: 'Open Sans Condensed', sans-serif;
+
+
+    // font-family: 'Cinzel', serif;
+
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    display: inline;
+    cursor: pointer;
+}
+.title:hover{
+    color: grey;
+}
+.big {
+    font-size: 50px;
+}
+.explanation {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: rgb(83, 83, 83);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Antic Slab', serif;
+
+}
+.text-input {
+    width: 80%;
+    margin: 30px 50px;
+    height: 15vh;
+    border: white;
+    resize: none;
+    overflow: auto;
+    scrollbar-base-color: plum;
+    scrollbar-color: blue;
+    scrollbar-track-color: red;
+    outline: none;
+}
+.text-input::-webkit-scrollbar-thumb {
+    background-color: red;
+}
+.text-input::-moz-scrollbar-thumb {
+    background-color: red;
+}        
+.text-input::-o-scrollbar-thumb {
+    background-color: red;
+}
+.input-number {
+    width: 40px;
+}
+.button-description-down {
+    font-size: 24px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Antic Slab', serif;
+    color: rgb(83, 83, 83);
+
+}

@@ -7,6 +7,7 @@ import wtf from 'wtf_wikipedia';
 import exampleText from '../../data/default-text';
 import exampleTextPl from '../../data/default-text-pl';
 import { ReactComponent as Logo} from '../../data/loader.svg';
+import {saveBook} from "../../firebase/firebase.utils";
 import DefinitionBox from "../../components/definition-box/definition-box.component";
 import TextInputBox from "../../components/text-input-box/text-input-box.component";
 import WordsList from "../../components/words-list/words-list.component";
@@ -49,6 +50,7 @@ const HomePage = () => {
 
     const handleSubmit = async event => {
         event.preventDefault();
+        await saveBook('dziki', 'slodziaki', [{text: 'Czy to prawda?'}, {text: 'Nic nigdy nie było dla mnie bardziej prawdziwe.'}]);
         await setLoadingStarted(true);
         await setMostFrequentWords([]);
         await chooseWords(text);

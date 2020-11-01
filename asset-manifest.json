@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kaczki/static/css/main.a5e07925.chunk.css",
+    "main.js": "/kaczki/static/js/main.38291c5b.chunk.js",
+    "main.js.map": "/kaczki/static/js/main.38291c5b.chunk.js.map",
+    "runtime-main.js": "/kaczki/static/js/runtime-main.1f3ae335.js",
+    "runtime-main.js.map": "/kaczki/static/js/runtime-main.1f3ae335.js.map",
+    "static/js/2.c1e4db46.chunk.js": "/kaczki/static/js/2.c1e4db46.chunk.js",
+    "static/js/2.c1e4db46.chunk.js.map": "/kaczki/static/js/2.c1e4db46.chunk.js.map",
+    "index.html": "/kaczki/index.html",
+    "precache-manifest.43c33433fb2b0cdb126632bcb433021c.js": "/kaczki/precache-manifest.43c33433fb2b0cdb126632bcb433021c.js",
+    "service-worker.js": "/kaczki/service-worker.js",
+    "static/css/main.a5e07925.chunk.css.map": "/kaczki/static/css/main.a5e07925.chunk.css.map",
+    "static/js/2.c1e4db46.chunk.js.LICENSE.txt": "/kaczki/static/js/2.c1e4db46.chunk.js.LICENSE.txt",
+    "static/media/loader.b03a6723.svg": "/kaczki/static/media/loader.b03a6723.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f3ae335.js",
+    "static/js/2.c1e4db46.chunk.js",
+    "static/css/main.a5e07925.chunk.css",
+    "static/js/main.38291c5b.chunk.js"
+  ]
+}
